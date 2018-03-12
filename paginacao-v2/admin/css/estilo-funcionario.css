@@ -1,0 +1,134 @@
+/* CSS Document */
+
+.navbar-radius{
+	border-radius: 0;
+}
+
+#lista{
+	font: 13px Verdana, Geneva, sans-serif;
+	margin: 0 0 0 20px;
+	float: left;
+	width: 355px;
+	height: 400px;
+}
+
+#lista .alnNm{
+	width: 265px;
+	/*background: #9CC;*/
+	display:inline-block;
+	text-align: center;
+	margin: 0 0 0 5px;
+}
+
+#lista .panel-heading img{
+	position: absolute;
+	margin: -25px 0 0 290px;
+	border: none;
+}
+
+/* --- MODIFICANDO O TAMANHO DA FONTE -- */
+#lista .panel-footer .pagination {
+    padding: 2px 0 0 0;
+    margin: 0;
+}
+
+#lista .panel-footer .mgn{
+	float: right;
+}
+
+#lista .panel-footer .sprd span{
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+#lista .panel-footer .sprd span:hover{
+	color: #337ab7;
+}
+
+#lista .panel-footer .pagination-sm > li > a,
+#lista .panel-footer .pagination-sm > li > span {
+  padding: 5px 7px;
+  font-size: 10px;
+  line-height: 1;
+}
+#lista .panel-footer .pagination-sm > li:first-child > a,
+#lista .panel-footer .pagination-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#lista .panel-footer .pagination-sm > li:last-child > a,
+#lista .panel-footer .pagination-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#lista .altr{
+	height: 47px;
+}
+/* --- //MODIFICANDO O TAMANHO DA FONTE -- */
+
+
+
+
+#lista .funcionario{
+	padding: 0 0 0 5px;
+	height: 20px;
+}
+
+#lista .funcionario + .funcionario{
+	margin: 7px 0 0 0;
+}
+
+/*#lista .funcionario:hover{
+	background: url("../../img/hover.png");
+	border-radius: 3px;
+	color: #004682;
+}*/
+
+#lista .funcionario img{
+	border: 0;
+}
+
+#lista .funcionario .nome{
+	float: left;
+	width: 260px;
+}
+
+#lista .funcionario .editar{
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+#lista .funcionario .excluir{
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+#formulario{
+	float: left;
+	width: 300px;
+	margin: 0 0 0 20px;
+}
+
+#formulario label{
+	font: 13px Verdana, Geneva, sans-serif;
+}
+
+#formulario input[name="nome"]{
+	width: 295px;
+}
+
+#formulario input[name="email"]{
+	width: 293px;
+}
+
+#formulario input[name="senha"]{
+	width: 295px;
+}
+
+#formulario input[type="submit"]{
+	font: 20px Verdana, Geneva, sans-serif;
+	width: 299px;
+}
+
+
